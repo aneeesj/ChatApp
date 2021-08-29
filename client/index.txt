@@ -1,0 +1,32 @@
+	Databse -chatapp
+
+Tables - 1)login, 2)signup , 3)MyChatRoom
+
+
+
+Tables - login .signup - Users	
+           -column - id -   int/number
+            username        varchar(8)	
+            password        varchar(8)
+            email  	    varchar(319)
+            gender  	    varchar(1) (male = m, female = f)
+            dob   	    int/number
+            status 	    varchar(1	5)
+            DateJoined      date  					 
+            LastSeenDate    date	
+
+
+Tables - MyChatRoom 
+           -column - id - int/number , UsersId - int/number , messagesId - int/number			 
+					       1             3                      5 
+						  
+						  
+						  
+						  
+Tables - MeaagesHistory 
+           -column - id - int/number ,  MyChatRoomId -  string, messages - int/number	 CreateDate				 
+					         1              1                     Hi
+							 2              1                    How are you   
+ 							 3              1
+							 4              1
+							 5
